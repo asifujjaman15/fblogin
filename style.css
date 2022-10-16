@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.facebook-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.main {
+    background-color: rgba(247, 245, 240, 0.822);
+    display: inline;
+    padding: 50px 20px;
+    margin: 50px 20px;   
+    width: 360px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.logo h2 {
+    color: #1877f2;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.number input {
+    width: 320px;
+    padding: 5px 8px;
+    border: 1px solid rgba(160, 160, 160, 0.829);
+    outline: none;
+    border-radius: 4px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.number input:hover {
+    border: 1px solid rgba(177, 208, 255, 0.952);
+}
+
+.pass input {
+    width: 320px;
+    padding: 5px 8px;
+    border: 1px solid rgba(160, 160, 160, 0.829);
+    outline: none;
+    border-radius: 4px;
+    height: 45px;
+    margin-top: 8px;
+}
+
+.pass input:hover {
+    border: 1px solid rgba(177, 208, 255, 0.952);   
+}
+
+.login-btn button {
+    width: 320px;
+    margin-top: 14px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.forget-pass p {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #1877f2;
+}
+
+.forget-pass p:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.creat-new button {
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px 5px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.creat-new button:hover {
+    background-color: #389c24;
+}
+
+.creator p {
+    margin-top: 8px;
+    font-weight: bold;
+}
